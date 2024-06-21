@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/logo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    color: #fff;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+.service h2 {
+    margin-bottom: 10px;
+}
+
+.service ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.service span {
+    font-weight: bold;
+}
