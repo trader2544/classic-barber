@@ -21,7 +21,8 @@ header{
 }
 header a{
     color: #eee;
-    margin-right: 40px;
+     margin-right: 10px;
+    font-size:30px;
 }
 /* carousel */
 .carousel{
